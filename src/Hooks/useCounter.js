@@ -1,23 +1,4 @@
-
-/*import {useState} from 'react'
-
-export function useCounter (){
-  
-    const [count, setCount] = useState (0)
-
-  //const [count, setCount] = useState(0)
-  const dicreaseCount = () =>  {
-    if (count > 0)
-      setCount ((count) =>  count -1)
-  }
-
-  const increaseCount = () => {
-    setCount ((count) =>  count +1)
-  }
-  return {count, increaseCount,dicreaseCount}
- }*/
-
-  import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
   export function useCounter() {
       const FAVORITE_NUMBER = 8

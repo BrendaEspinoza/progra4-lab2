@@ -1,23 +1,3 @@
-
-/*import { useCounter } from "../Hooks/useCounter"
-
-export function Counter() {
-    const { count, increaseCount, dicreaseCount } = useCounter()
-
-    return (
-        <div className="card">
-            <p> Count: {count}</p>
-            <button onClick={increaseCount}>
-                +
-            </button>
-
-            <button onClick={dicreaseCount}>
-                -
-            </button>
-        </div>
-    );
-}*/
-
 import { useCounter } from "../Hooks/useCounter"
 
 export function Counter() {
